@@ -16,12 +16,11 @@ int main()
     cout << "Masukkan nama Player= ";
     getline(cin, good.name);
     cout << "Masukkan id= ";
-    getline(cin, good.id);
+    cin >> good.id;
     cout << "Masukkan level=";
-    getline(cin, good.level);
+    cin >> good.level;
 
     cout << "Tampilkan Player" << endl;
     cout << "Nama Player" << good.name << endl;
     cout << "Id Player=" << good.id << endl;
     cout << "Level Player" << good.level << endl;
-}
